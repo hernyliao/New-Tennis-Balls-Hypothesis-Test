@@ -57,7 +57,7 @@ The parser counts `S` and `A` as server-won points, `A` as an ace, and `D` as a 
 | `sample_new_ball.py` | Sample games from the new-ball export |
 | `sample_old_ball.py` | Sample games from the comparison export |
 | `tally_service_games.py` | Count games and points in the full group exports |
-| `Statistics Final Project (1).pdf` | Original written report, including hypothesis tests, confidence interval, visualizations, and discussion |
+| `Statistics Final Project.pdf` | Original written report, including hypothesis tests, confidence interval, visualizations, and discussion |
 
 The supplied Python files perform extraction, sampling, and tallying. They do not calculate the hypothesis tests, confidence interval, or report charts.
 
