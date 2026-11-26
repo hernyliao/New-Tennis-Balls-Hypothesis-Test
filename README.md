@@ -73,7 +73,7 @@ The dependency is identified from the source imports; exact versions from the or
 
 ### 1. Supply the source data
 
-Create a `data` folder beside the scripts and add:
+Create a `data` folder beside the scripts and add from Jeff Sackmann’s point-by-point tennis datasets:
 
 - `data/pbp_matches_atp_main_current.csv`
 - `data/pbp_matches_atp_main_archive.csv`
@@ -151,7 +151,6 @@ The game-level p-value is approximately **0.163 > 0.05**. The original PDF has a
 - **Server attribution:** The code assigns servers by alternating game index. Service order after tiebreaks needs validation before relying on player-level metadata.
 - **Input validation:** Missing point-by-point strings, unexpected token characters, overlapping source files, and incomplete games need explicit checks.
 - **Historical coverage:** Findings describe the sampled historical data and should not automatically be generalized to current matches or other competition levels.
-- **Reproducibility:** Original sampled CSVs, a fixed input snapshot, and executable statistical-analysis code are needed to reproduce the complete report.
 
 ## Contributions and future work
 
